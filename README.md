@@ -1,5 +1,11 @@
 # nuxt-bingo-app
-This BingoApp use Nuxt.js and Vuetify
+This BingoApp use Nuxt.js and Vuetify.
+- nuxt: 2.15.7
+- vuetify: 2.5.5
+
+This App is built Docker Image.
+- node: node:16.3.0-alpine3.12
+- nginx: 1.21
 
 ## Commonly Use Command
 - initial install
@@ -13,7 +19,7 @@ This BingoApp use Nuxt.js and Vuetify
   ```
 - production server up
   ```sh
-  # localhost:3000 up prod server
+  # localhost up prod server
   docker-compose -f production.yml up
   ```
 
