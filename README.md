@@ -10,7 +10,7 @@ This App is built Docker Image.
 ## Commonly Use Command
 - initial install
   ```sh
-  docker-compose run --rm nuxt sh -c "yarn install"
+  docker-compose run --rm nuxt sh -c "npm install"
   ```
 - development server up
   ```sh
