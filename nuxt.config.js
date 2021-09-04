@@ -22,7 +22,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-bingo-app/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-bingo-app/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/nuxt-bingo-app/v.png' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/nuxt-bingo-app/vuetify-logo.svg' }
     ]
   },
 
