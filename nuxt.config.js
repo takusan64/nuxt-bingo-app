@@ -22,7 +22,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-bingo-app/favicon.ico' }
     ]
   },
 
@@ -76,5 +76,10 @@ export default {
   server: {
     port: 3000,
     host: '0.0.0.0'
+  },
+
+  // gh-pages router config
+  router: {
+    base: '/nuxt-bingo-app/'
   }
 }
