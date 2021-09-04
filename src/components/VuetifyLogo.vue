@@ -2,7 +2,7 @@
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="/vuetify-logo.svg"
+    src="/nuxt-bingo-app/vuetify-logo.svg"
   >
 </template>
 
