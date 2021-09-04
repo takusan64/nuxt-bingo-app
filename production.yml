@@ -1,11 +1,10 @@
 version: '3.9'
 services:
-  nginx:
-    image: nginx:1.21
+  nuxt:
+    image: node:16.3.0-alpine3.12
+    working_dir: /app
     volumes:
-      - ./dist:/usr/share/nginx/html
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - .:/app
     ports:
-      - 80:80
-    environment:
-      - TZ=Asia/Tokyo
+      - "80:3000"
+    command: sh -c 'yarn generate && yarn start'

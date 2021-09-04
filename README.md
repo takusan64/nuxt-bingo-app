@@ -25,7 +25,7 @@ This App is built Docker Image.
 
 - export generate
   ```sh
-  docker-compose -f build.yml up
+  docker-compose run --rm nuxt sh -c "yarn generate"
   ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
